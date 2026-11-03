@@ -1,0 +1,13 @@
+{
+  "name": "rust-pixel-editor-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun ./index.html",
+    "typecheck": "bun check",
+    "build": "bun build ./index.html --outdir=dist"
+  },
+  "dependencies": {
+    "pixel-core": "link:../pixel-core/pkg"
+  }
+}

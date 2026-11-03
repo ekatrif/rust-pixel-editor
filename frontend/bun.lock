@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "rust-pixel-editor-frontend",
+      "dependencies": {
+        "pixel-core": "link:../pixel-core/pkg",
+      },
+    },
+  },
+  "packages": {
+    "pixel-core": ["pixel-core@link:../pixel-core/pkg", {}],
+  }
+}
